@@ -1,0 +1,76 @@
+/*Custom styles for this template*/
+body {
+	font-family: 'Nunito', sans-serif;
+	background: url(../images/squared_metal.png) ;
+	font-size: 15px;
+}
+ul{
+	padding: 0 0 0 20px;
+	list-style-position: inside;
+	font-weight: normal;
+	list-style: square;
+}
+h1, h2{
+	margin: 0;
+}
+/*common styles and snipets
+===============================================*/
+.wrapper {
+	max-width: 960px;
+	margin: 0px auto;
+}
+.col-md-9 h2{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #fff;
+}
+.selected {
+	font-weight: bold;
+}
+.header {
+	background: #fff;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+.left_panel {
+	background: #fff;
+	padding: 10px 0;
+	min-height: 500px;
+}
+.content_panel {
+	background:#f8f6e6;
+	min-height: 500px;
+}
+.navigation ul {
+	padding-left: 20px;
+}
+.footer {
+	background: #fff;
+	padding: 10px 0;
+	margin-top: 10px;
+}
+.message{
+	border:1px solid #f00;
+	color: red;
+	padding: 5px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.error{
+	border:2px solid #f00;
+	color: red;
+	padding: 5px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.view-content {
+    border: 1px solid #aaa;
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2) inset;
+}
+.edit{
+	display: block;
+}
